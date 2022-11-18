@@ -1,0 +1,17 @@
+{
+  "name": "selenium-example",
+  "author": "Brett D. Miller",
+  "description": "A example of webscraping for an ESPN fantasy football league.",
+  "dependencies": {
+    "chromedriver": "^106.0.1",
+    "selenium-webdriver": "^4.5.0",
+    "inquirer": "^8.2.4"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
